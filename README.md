@@ -8,7 +8,7 @@ Candy UIkit is a set of React components and hooks used to build pages on Candy'
 
 ## Install
 
-`yarn add @candyswap/candyswap-libs/uikit`
+`yarn add @candyswap-libs/uikit`
 
 ## Setup
 
@@ -18,7 +18,7 @@ Before using Candy UIkit, you need to provide the theme file to styled-component
 
 ```
 import { ThemeProvider } from 'styled-components'
-import { light, dark } from '@candyswap/candyswap-libs/uikit'
+import { light, dark } from '@candyswap-libs/uikit'
 ...
 <ThemeProvider theme={isDark}>...</ThemeProvider>
 ```
@@ -28,7 +28,7 @@ import { light, dark } from '@candyswap/candyswap-libs/uikit'
 A reset CSS is available as a global styled component.
 
 ```
-import { ResetCSS } from '@candyswap/candyswap-libs/uikit'
+import { ResetCSS } from '@candyswap-libs/uikit'
 ...
 <ResetCSS />
 ```
